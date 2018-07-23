@@ -1,4 +1,4 @@
-var auth = require ("./auth");
+var auth = require ("./index");
 
 function test_login(user, pass) {
     if(auth.login(user, pass)) {
