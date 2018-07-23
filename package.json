@@ -4,7 +4,9 @@
   "description": "training for td in node",
   "main": "hello.js",
   "dependencies": {
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "bluebird": "^3.5.0",
+    "uuid": "^2.0.1"
   },
   "devDependencies": {},
   "scripts": {
