@@ -1,0 +1,23 @@
+{
+  "name": "ankit_node",
+  "version": "1.0.0",
+  "description": "training for td in node",
+  "main": "hello.js",
+  "dependencies": {
+    "jshint": "^2.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodeman14/node-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodeman14/node-training/issues"
+  },
+  "homepage": "https://github.com/kodeman14/node-training#readme"
+}
