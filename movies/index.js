@@ -38,14 +38,11 @@ var server = http.createServer(function(req, res) {
         
         req.on("data", function(chunk) {
             body += chunk;
-            console.log(body);
         });
 
         req.on("end", function() {
             var newMovie = JSON.parse(body);
-            console.log('new: ' + newMovie);
             movies.push(newMovie);
-            console.log('all: ' + movies);
             res.end();
         });
     }
