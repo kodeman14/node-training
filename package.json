@@ -2,7 +2,7 @@
   "name": "ankit_node",
   "version": "1.0.0",
   "description": "training for td in node",
-  "main": "hello.js",
+  "main": "hello.js, unique/index.js, workspace/promises/bluebird.js",
   "dependencies": {
     "jshint": "^2.9.5",
     "bluebird": "^3.5.0",

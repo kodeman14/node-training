@@ -9,14 +9,4 @@ function sum(a, b, callback) {
     });
 }
 
-// function sumAsync(a, b) {
-//     return new Promise(function(resolve, reject) {
-//         sum(a, b, function(err, data) {
-//             if (err) return reject(err);
-//             else resolve(data);
-//         });
-//     });
-// }
-
 module.exports.sum = sum;
-// module.exports.sumAsync = sumAsync;

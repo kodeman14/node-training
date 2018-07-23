@@ -3,7 +3,6 @@ var util = require('util');
 
 var bankAcct = function bankAcct() {
     var balance = 0;
-    //this.eventEmitter = new events.EventEmitter();
     this.setMaxListeners(1);
     this.deposit = function(amount) {
         balance += amount;
