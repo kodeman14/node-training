@@ -1,0 +1,16 @@
+{
+  "name": "product-inventory-service",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1"
+  },
+  "scripts": {
+    "start": "node ProductInquiryService",
+    "backend": "concurrently \"node ProductInventoryService\" \"node ProductDetailsService\"",
+    "all": "concurrently \"node ProductInventoryService\" \"node ProductDetailsService\" \"node ProductInquiryService\""
+  }
+}
